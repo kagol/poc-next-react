@@ -1,6 +1,7 @@
 import { useState, useContext } from 'react'
 import { z } from 'zod'
 import { useNextServer, McpContext } from '@opentiny/next-react'
+import './CompanyList.css'
 
 function MyPage() {
   const defaultCompanyList = [
